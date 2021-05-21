@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "桂桂卷，电子科技大学在读硕士，桂桂酱の分享，桂桂酱の日常，对抗攻击，对抗防御"
+sidebar-about-description: "桂桂卷，电子科技大学在读硕士，桂桂酱の分享，桂桂酱の日常，机器学习，深度学习，对抗攻击，对抗防御，论文阅读笔记，leetcode刷题总结"
 sidebar-avatar: /img/桂桂狗2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
