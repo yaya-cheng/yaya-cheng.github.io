@@ -12,9 +12,7 @@ author: CYY
 
 ![image](/img/split-line1.gif)
 ### 4.8.1-Default Argument Values
-<figure class="third">
-     <img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/>
- </figure>
+<img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/>
 
 #### Example 1
 
