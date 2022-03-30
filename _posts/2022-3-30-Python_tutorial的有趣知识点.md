@@ -11,49 +11,34 @@ author: CYY
 {% raw %}
 
 ### 4.8.1-Default Argument Values
-
-给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。返回删除后的链表的头节点。注意：此题对比原题有改动
-
-示例 1:
-
-输入: head = [4,5,1,9], val = 5
-
-输出: [4,1,9]
-
-解释: 给定你链表中值为 5 的第二个节点，那么在调用了你的函数之后，该链表应变为 4 -> 1 -> 9.
-
-
-示例 2:
-
-输入: head = [4,5,1,9], val = 1
-
-输出: [4,5,9]
-
-解释: 给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -> 5 -> 9.
-
-### 单指针python版
+1、Important warning: The default value is evaluated only once. This makes a difference when the default is a mutable object such as a list, dictionary, or instances of most classes. For example, the following function accumulates the arguments passed to it on subsequent calls:
 
 ```python
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-class Solution:
-    def deleteNode(self, head: ListNode, val: int) -> ListNode:
-        pre=head
-        if head.val==val: return head.next
-        while(pre.next.val!=val):
-            pre=pre.next
-        pre.next=pre.next.next
-        return head
+def f(a, L=[]):
+    L.append(a)
+    return L
+
+print(f(1))
+print(f(2)) 
+print(f(3))
 ```
 
-最近成都实在是太热啦，本桂桂酱刚刚吃了一颗冰淇凌嘻嘻，你们呐？
+输出
+```python
+[1]
+[1, 2]
+[1, 2, 3]
+```
+If you don’t want the default to be shared between subsequent calls, you can write the function like this instead:
+```python
+def f(a, L=None):
+    if L is None:
+        L = []
+    L.append(a)
+    return L
+```
 
-最近天热，要注意不要中暑了嗷˶´⚰︎`˵
-
-![image](/img/剑指18配图.jpg)
+见[这里](https://docs.python.org/3/tutorial/controlflow.html)
 
 {%endraw%}
 
