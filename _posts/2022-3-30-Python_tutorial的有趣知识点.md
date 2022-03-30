@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "test"
+title:  "桂桂卷的入职准备-python学习"
 header-img: "img/桂桂狗3-dimm.jpg"
-categories: exercise
+categories: Onboarding Preparation
 tags: Work hard(๑･`◡´･๑)
 author: CYY
 ---
 
-tese
+入职前的草莓桂桂卷(๑•̀ㅂ•́)و✧
 {% raw %}
 
 ### 题目描述
