@@ -11,7 +11,7 @@ author: CYY
 入职前的草莓桂桂卷(๑•̀ㅂ•́)و✧
 {% raw %}
 
-###4.8.1-Default Argument Values
+### 4.8.1-Default Argument Values
 
 ```python
 def f(a, L=[]):
@@ -32,4 +32,9 @@ print(f(3))
 
 见[这里](https://docs.python.org/3/tutorial/controlflow.html)
 
-{% endraw %}
+![image](/img/剑指18配图.jpg)
+
+{%endraw%}
+
+
+
