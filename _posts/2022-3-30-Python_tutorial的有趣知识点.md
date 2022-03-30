@@ -14,6 +14,7 @@ author: CYY
 ### 4.8.1-Default Argument Values
 #### Example 1
 <img src="/img/icon1.gif" alt="drawing" width="70"/><img src="/img/icon2.gif" alt="drawing" width="70"/><img src="/img/icon1.gif" alt="drawing" width="70"/>
+
 Important warning: The default value is evaluated only once. This makes a difference when the default is a mutable object such as a list, dictionary, or instances of most classes. For example, the following function accumulates the arguments passed to it on subsequent calls:
 
 ```python
