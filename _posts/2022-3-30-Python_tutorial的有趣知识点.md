@@ -13,7 +13,7 @@ author: CYY
 ![image](/img/split-line1.gif)
 ### 4.8.1-Default Argument Values
 
-<img align="left" src="/img/icon3_crop-1.png" alt="drawing" width="60"/>
+<img align="left" src="/img/icon3_crop-1.png" alt="drawing" width="200"/>
 
 #### Example 1
 
