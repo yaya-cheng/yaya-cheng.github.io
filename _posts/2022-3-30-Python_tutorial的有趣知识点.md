@@ -41,7 +41,6 @@ def f(a, L=None):
     L.append(a)
     return L
 ```
-<img align="left" src="/img/icon3_crop-1.png" alt="drawing" width="300"/>
 见[这里](https://docs.python.org/3/tutorial/controlflow.html)
 
 {%endraw%}
